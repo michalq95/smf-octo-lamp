@@ -1,0 +1,10 @@
+# resources:
+#     App\Entity\Book:
+#         operations:
+#             ApiPlatform\Metadata\Get: ~
+#             post_publication:
+#                 class: ApiPlatform\Metadata\Get
+#                 uriTemplate: /books/{id}/publication
+#                 controller: App\Controller\CreateBookPublication
+#                 normalizationContext:
+#                     groups: ['publication']

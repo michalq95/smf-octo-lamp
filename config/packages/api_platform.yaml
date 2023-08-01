@@ -1,0 +1,10 @@
+api_platform:
+  swagger:
+    api_keys:
+      JWT:
+        name: Authorization
+        type: header
+  patch_formats:
+    mime_types: ["multipart/form-data"]
+  defaults:
+    pagination_partial: true
